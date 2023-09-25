@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans+Semi+Condensed:wght@700&family=Sofia+Sans:wght@100;400;500;600&display=swap');
 
 :root{
     --cor--preta: ;
-    --cor--rosa: ;
+    --cor--rosa: #ff0084;
     --cor--branco: ;
     --cor--cinza: ;
-    --fonte--principal: ;
-    --fonte--secundaria: ;
+    --fonte--principal:'Sofia Sans', sans-serif;;
+    --fonte--principal--bold: 'Sofia Sans Semi Condensed', sans-serif;
+    --fonte--secundaria: 'Bebas Neue', sans-serif; ;
     
 }
 body{
@@ -14,3 +16,9 @@ body{
     height: 100vh;
 }
 
+.cabecalho{
+    background-color: var(--cor--rosa) ;
+}
+.cabecalho__menu{
+    font-family: var(--fonte--principal);
+}
