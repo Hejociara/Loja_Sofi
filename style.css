@@ -1,0 +1,16 @@
+
+:root{
+    --cor--preta: ;
+    --cor--rosa: ;
+    --cor--branco: ;
+    --cor--cinza: ;
+    --fonte--principal: ;
+    --fonte--secundaria: ;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
