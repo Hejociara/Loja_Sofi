@@ -5,7 +5,8 @@
     --cor--rosa: #ff0084;
     --cor--branco: #ffffff;
     --cor--cinza: #403d3d;
-    --fonte--principal:'Sofia Sans', sans-serif;;
+    --gradiente--fundo: linear-gradient(to right, #91175c, #ff0084 );
+    --fonte--principal:'Sofia Sans', sans-serif;
     --fonte--principal--bold: 'Sofia Sans Semi Condensed', sans-serif;
     --fonte--secundaria: 'Bebas Neue', sans-serif; ;
     
@@ -18,7 +19,7 @@ body{
 
 .cabecalho{
     padding: 0px;
-    background-image: linear-gradient(to right, var(--cor--rosa) , #91175c);
+    background-image: var(--gradiente--fundo);
     font-family: var(--fonte--principal);
     color: var(--cor--branco);
     font-size: 16px;
