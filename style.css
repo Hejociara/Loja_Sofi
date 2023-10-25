@@ -18,11 +18,11 @@ body{
 
 .cabecalho{
     padding: 0px;
-    background-color: var(--cor--rosa);
+    background-image: linear-gradient(to right, var(--cor--rosa) , #91175c);
     font-family: var(--fonte--principal);
     color: var(--cor--branco);
     font-size: 16px;
-    padding-bottom: 15px;;
+    padding-bottom: 20px;;
 }
 .cabecalho__menu{
     font-family: var(--fonte--principal);
@@ -68,13 +68,17 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    gap: 10px;
+    text-align: center;
 }
-
+.cabecalho__logo{
+    height: 70px;
+}
 #cabecalho__busca{
     background-color: var(--cor--cinza);
     border:solid 1px;
     border-radius:2px;
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -86,7 +90,7 @@ body{
     font-size:18px;
     border:none;
     height:32px;
-    width: 500px;
+    width: 550px;
 }
 #botaoLupa{
     padding: 5px 10px;
@@ -96,5 +100,5 @@ body{
     height: 24px;
 }
 .cabecalho__icone__direito{
-    height: 40px;
+    height: 35px;
 }
