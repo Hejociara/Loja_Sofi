@@ -1,1 +1,3 @@
-# Loja desenvolvida para e-commerce
+<script>
+
+</script>

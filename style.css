@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans+Semi+Condensed:wght@700&family=Sofia+Sans:wght@100;400;500;600&display=swap');
 
 :root{
-    --cor--preta: ;
+    --cor--preto: #000000;
     --cor--rosa: #ff0084;
-    --cor--branco: ;
-    --cor--cinza: ;
+    --cor--branco: #ffffff;
+    --cor--cinza: #403d3d;
     --fonte--principal:'Sofia Sans', sans-serif;;
     --fonte--principal--bold: 'Sofia Sans Semi Condensed', sans-serif;
     --fonte--secundaria: 'Bebas Neue', sans-serif; ;
@@ -17,8 +17,84 @@ body{
 }
 
 .cabecalho{
-    background-color: var(--cor--rosa) ;
+    padding: 0px;
+    background-color: var(--cor--rosa);
+    font-family: var(--fonte--principal);
+    color: var(--cor--branco);
+    font-size: 16px;
+    padding-bottom: 15px;;
 }
 .cabecalho__menu{
     font-family: var(--fonte--principal);
+}
+.cabecalho__navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho__navbar__esquerdo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+.cabecalho__link__esquerdo{
+    list-style-type: none;
+}
+.cabecalho__texto{
+    font-size: 16px;
+}
+.cabecalho__icone__esquerdo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 20px;
+}
+.cabecalho__navbar__direito{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+.cabecalho__link__direito{
+    list-style-type: none;
+}
+.entrar:hover{
+    color: var(--cor--preto);
+}
+.cabecalho__principal{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#cabecalho__busca{
+    background-color: var(--cor--cinza);
+    border:solid 1px;
+    border-radius:2px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#minhaBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width: 500px;
+}
+#botaoLupa{
+    padding: 5px 10px;
+    height: 20px;
+}
+#botaoLupa:hover{
+    height: 24px;
+}
+.cabecalho__icone__direito{
+    height: 40px;
 }
