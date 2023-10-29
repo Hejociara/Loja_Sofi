@@ -23,7 +23,7 @@ body{
     font-family: var(--fonte--principal);
     color: var(--cor--branco);
     font-size: 16px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
 }
 .cabecalho__menu{
     font-family: var(--fonte--principal);
@@ -102,4 +102,28 @@ body{
 }
 .cabecalho__icone__direito{
     height: 35px;
+}
+main{
+    font-family: var(--fonte--principal);
+}
+.main__navbar{
+    display: flex;
+    justify-content: center;
+}
+.cabecalho__lista{
+    list-style-type: none;
+}
+.cabecalho__botao{
+    background-color: transparent;
+    border: none;
+}
+.cabecalho__botao:hover{
+    color: var(--cor--rosa);
+}
+.main__botao{
+    height: 30px;
+    cursor: pointer;
+}
+.filtro{
+    background-image: assets;
 }
